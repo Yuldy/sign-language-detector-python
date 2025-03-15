@@ -49,13 +49,25 @@ if not os.path.exists(DATA_DIR):
 
 # Move hands back and forth
 #number_of_classes = 3
-number_of_classes = 25
+number_of_classes = 26
+
+# can also modify dataset size
 dataset_size = 100
 
 # Change camera index if needed (0 for default, 1 for external)
 cap = cv2.VideoCapture(1)  # Try 1 if 0 doesn't work
 
-for j in range(number_of_classes):
+
+# 21 redo V baloon
+
+# do  25 Z
+
+# Reshoot
+#classes_to_capture = [21, 25]
+classes_to_capture = [25]
+for j in classes_to_capture:
+#for j in range(number_of_classes):
+
     if not os.path.exists(os.path.join(DATA_DIR, str(j))):
         os.makedirs(os.path.join(DATA_DIR, str(j)))
 
