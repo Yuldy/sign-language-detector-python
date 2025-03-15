@@ -47,7 +47,9 @@ DATA_DIR = './data'
 if not os.path.exists(DATA_DIR):
     os.makedirs(DATA_DIR)
 
-number_of_classes = 3
+# Move hands back and forth
+#number_of_classes = 3
+number_of_classes = 25
 dataset_size = 100
 
 # Change camera index if needed (0 for default, 1 for external)
