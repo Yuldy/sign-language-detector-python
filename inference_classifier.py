@@ -4,6 +4,12 @@ import cv2
 import mediapipe as mp
 import numpy as np
 
+
+# Can only be one hand for the model or else it crashes.
+
+# If it's not working, rerun the training script and try again (train_classifier before it).
+# Then run inference_classifier.py
+
 model_dict = pickle.load(open('./model.p', 'rb'))
 model = model_dict['model']
 
