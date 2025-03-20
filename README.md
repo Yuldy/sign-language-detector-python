@@ -129,10 +129,6 @@ matplotlib>=3.5.0
 
 
 
-## License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - Hand landmark detection powered by **MediaPipe**
