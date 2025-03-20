@@ -22,7 +22,7 @@ This application recognizes hand gestures corresponding to the **26 letters of t
 
 ## Installation
 
-1. **Clone the repository:**git reset --hard origin/master
+1. **Clone the repository:**
 
    ```sh
    git clone https://github.com/Yuldy/sign-language-detector-python
